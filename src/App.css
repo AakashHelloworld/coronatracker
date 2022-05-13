@@ -1,0 +1,106 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  font-size: 62.5%;
+  font-family: sans-serif; }
+
+.header {
+  padding: 1rem;
+  height: 10vh; }
+
+.Main {
+  background-color: white; }
+
+.flex__items {
+  display: flex; }
+
+.searchform {
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .searchform__select {
+    padding: 1rem;
+    font-size: 1rem; }
+
+.chart__container {
+  min-height: 65vh;
+  width: 60%; }
+
+.cards__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 40%;
+  justify-content: space-around;
+  margin-right: 6rem; }
+  .cards__container__card {
+    text-align: start;
+    background-color: #dddcdc;
+    padding: 1.3rem;
+    max-width: 20rem; }
+
+.recharts-legend-item {
+  font-size: 2rem;
+  margin-right: 2rem; }
+
+.Main_loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh; }
+  .Main_loading h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1.1rem; }
+
+.recharts-layer {
+  font-size: 1.1rem; }
+
+.header__primary {
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  color: #2f69fd;
+  text-transform: uppercase; }
+  .header__primary span {
+    font-size: 4.5rem;
+    color: #f43117; }
+
+.cards__container__primary {
+  font-size: 1rem;
+  font-weight: 100;
+  text-align: center;
+  color: #8d8d8e;
+  text-transform: uppercase; }
+
+.cards__container__amount {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase; }
+  .cards__container__amount__confirmed {
+    color: #8500f9; }
+  .cards__container__amount__recovered {
+    color: #14fe14; }
+  .cards__container__amount__deaths {
+    color: red; }
+
+.cards__container__date {
+  font-size: 1rem;
+  font-weight: 100;
+  text-align: center;
+  color: #8d8d8e;
+  text-transform: uppercase; }
+
+.cards__container__secondary {
+  font-size: 1rem;
+  font-weight: 100;
+  text-align: center;
+  color: #5a5a5a;
+  text-transform: uppercase; }
